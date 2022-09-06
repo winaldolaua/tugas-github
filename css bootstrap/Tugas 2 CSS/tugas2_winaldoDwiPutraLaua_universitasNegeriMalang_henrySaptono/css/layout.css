@@ -1,0 +1,125 @@
+* { /* universal */
+  box-sizing: border-box;
+}
+
+body {
+  margin: 1;
+}
+
+
+#rcorners1 {
+	border-radius: 25px;
+	background-color: #ffce73;
+	padding: 20px;
+	width: 300px;
+	height: 400px;
+}
+
+
+.header {
+  background-size: contain;
+  background-color: rgb(255, 98, 0);
+  background-image:url('../images/banner.jpg');
+  background-repeat:no-repeat;
+  background-position:center center;
+  padding: 20px;
+  text-align: center;
+  width:1350px;
+  height:150px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-image: linear-gradient(to right, rgb(255, 98, 0) , rgb(255, 255, 0));
+}
+
+
+.topnav a {
+  background-color: rgb(215, 57, 5);
+
+  float: left;
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+.topnav a:hover {
+  background-color: rgb(251, 255, 0);
+  color: black;
+}
+
+
+.column {
+  float: left;
+  padding: 10px;
+}
+
+
+.column.side {
+  background-image: linear-gradient(to right, rgb(255, 200, 0) , rgb(255, 98, 0));
+  width: 25%;
+  height: 536px;
+}
+
+
+.column.middle {
+  background-image: linear-gradient(to right, rgb(255, 200, 0) , rgb(255, 98, 0));
+  width: 50%;
+}
+
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both; /* membersihkan float left sebelumnya */
+}
+
+
+@media screen and (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+}
+
+
+.footer {
+  background-image: linear-gradient(to right, rgb(251, 167, 114) , rgb(255, 255, 0));
+  
+  padding: 10px;
+  text-align: center;
+}
+
+
+p{
+	color:#000000;
+	text-align:justify;
+	font-family:'Times New Roman', Times, serif, verdana, comic sans, tahoma;
+	font-size:12pt;
+}
+
+h1{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	text-shadow:3px 3px rgb(249, 247, 247);
+	color:rgb(38, 39, 36);
+}
+
+h2{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	text-shadow:3px 3px rgb(29, 28, 28);
+	color:rgb(242, 244, 239);
+}
+
+fieldset{
+	border:rgb(178, 251, 214) groove 10px;
+	border-radius:30px;
+}
+legend{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-shadow:3px 3px rgb(29, 28, 28);
+	color:rgb(242, 244, 239);
+	
+}
