@@ -1,0 +1,15 @@
+* { /* universal */
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 1;
+  }
+
+
+h1{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      text-shadow:3px 3px rgb(249, 247, 247);
+      color:rgb(38, 39, 36);
+  }
+  
