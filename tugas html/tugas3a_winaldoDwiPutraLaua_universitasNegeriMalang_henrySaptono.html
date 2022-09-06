@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+	<head><title>Tugas 3a</title></head>
+	<body>
+		<form name="form3a" method="GET" action="#">
+			<table border="0" align="center" cellpadding="15" width="40%">
+				<thead>
+					<tr bgcolor="grey">
+						<th colspan="2">Form Register Produk</th>
+					</tr>
+				</thead>
+				<tfoot>
+					<tr bgcolor="grey">
+						<th colspan="2">
+							<input type="submit" name="proses" value="Kirim" />&nbsp;&nbsp;
+							<input type="reset" name="unproses" value="Batal" />
+						</th>
+					</tr>
+				</tfoot>
+				<tbody>
+
+					<tr>
+						<td width="50%"><label>Nama produk</label></td>
+						<td>
+							<input type="text" name="nama" value=""
+							       size="30" maxlength="40"/>
+						</td>
+					</tr>
+
+					<tr>
+						<td><label>Jenis Produk</label></td>
+						<td>
+							<select name="pendidikan">
+								<option value="" selected>-- Kategori Produk --</option>
+								<option value="elek">Elektronik</option>
+								<option value="perabotan">Perabotan</option>
+								<option value="alatdapur" >Alat Dapur</option>
+								<option value="mainan">Mainan</option>
+							</select>
+						</td>
+					</tr>
+
+					<tr>
+						<td width="50%"><label>Harga</label></td>
+						<td>
+							<input type="text" name="nama" value="" 
+							       size="30" maxlength="80"/>
+						</td>
+					</tr>
+					<tr>
+						<td width="25%"><label>Stok</label></td>
+						<td>
+							<input type="text" name="nama" value=""
+							       size="30" maxlength="80"/>
+						</td>
+					</tr>
+
+					<tr>
+						<td width="25%"><label>Photo</label></td>
+					<td>
+						<input type="file" value="upload gambar"/>
+					</td>
+					</tr>
+
+				</tbody>
+			</table>
+		</form>
+	</body>
+</html>
